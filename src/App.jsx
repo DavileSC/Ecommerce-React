@@ -1,5 +1,5 @@
-import Header from '@/components/Header/Header'
-// import Navbar from '@/components/Navbar/Navbar'
+import Navbar from '@/components/Navbar/Navbar'
+import MenuBar from './components/MenuBar/MenuBar'
 // import Valoraciones from '@/components/Valoraciones/Valoraciones'
 // import Footer from '@/components/Footer/Footer'
 
@@ -7,10 +7,8 @@ function App() {
 
   return (
     <>
-      <Header />
-      {/* <Navbar />
-      <Valoraciones />
-      <Footer /> */}
+      <Navbar />
+      <MenuBar />
     </>
 
   )
